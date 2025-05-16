@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-vermelha: #a14444;
+    --background-body: #f8f5f2; 
+    --color-body: #333;
+    --background-headerr: #8b3a3a; 
+    --color-header: #fff;
+    --background-categoria: white;
+}
+
+body{
+    background-color: var(--background-body);
+    color: var(--color-body);
+}
+
+.titulo{
+    font-size: larger;
+    font-size: 30px;
+}
+
+header{
+    text-align: center;
+    background-color: var(--background-headerr);
+    color: var(--color-header);
+    margin-bottom: 20px;
+    padding: 15px 7px;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.horarios{
+    text-align: center;
+    padding: 20px;
+    
+}
+.localizacao{
+    text-align: center;
+}
+.horarios h2{
+    margin-bottom: 30px;
+    color: var(--cor-vermelha);
+}
+
+.localizacao h2{
+    margin-bottom: 30px;
+    color: var(--cor-vermelha);
+}
+
+.horarios ul{
+    list-style-type: none;
+}
+
+address{
+    margin-bottom: 30px;
+}
+
+button{
+    width: 130px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #a14444;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 90px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0, 1);
+
+}
+
+footer{
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+body{
+    background-color: #f8f5f2;
+    font-family: 'Roboto';
+}
+
+main{
+    width: 900px;
+    margin: auto;
+    
+}
+
+header{
+    text-align: center;
+}
+
+.cardapio{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    gap: 32px;
+
+    
+}
+
+img{
+    width: 100%;
+    height: 130px;  
+    padding: 15px;  
+    margin-bottom: 30px;   
+}
+
+.categoria{
+    box-shadow: 2px 2px var(--cor-vermelha);
+    border: 1px solid #ccc;
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(218, 217, 217);
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+p{
+ margin-top: 10px;
+}
